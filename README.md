@@ -36,15 +36,19 @@ ROSA (OpenShift Cluster)
 ---
 
 ## 📂 Terraform 구조
+
+```
 terraform_roh/
 ├── scripts/
 ├── stacks/
-│ ├── 00-base-network/
-│ ├── 10-net-sec/
-│ └── 20-edge/
+│   ├── 00-base-network/
+│   ├── 10-net-sec/
+│   └── 20-edge/
 ├── .gitignore
 └── README.md
+```
 
+---
 
 ### 🔹 00-base-network
 - VPC 생성
